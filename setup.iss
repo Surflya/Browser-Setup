@@ -24,7 +24,7 @@ DisableProgramGroupPage=yes
 ;PrivilegesRequired=lowest
 OutputDir=C:\Users\Lucas\Documents
 OutputBaseFilename=setup
-SetupIconFile=C:\Users\Lucas\Documents\Instalador\icon.ico
+SetupIconFile=C:\Users\Lucas\source\repos\Browser-Setup\Filesicon.ico
 Compression=lzma
 SolidCompression=yes
 WizardStyle=modern
@@ -60,105 +60,105 @@ Name: "ukrainian"; MessagesFile: "compiler:Languages\Ukrainian.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "C:\Users\Lucas\Documents\Instalador\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\CefSharp.BrowserSubprocess.Core.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\CefSharp.BrowserSubprocess.Core.pdb"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\CefSharp.BrowserSubprocess.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\CefSharp.BrowserSubprocess.pdb"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\CefSharp.Core.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\CefSharp.Core.pdb"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\CefSharp.Core.Runtime.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\CefSharp.Core.Runtime.pdb"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\CefSharp.Core.Runtime.xml"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\CefSharp.Core.xml"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\CefSharp.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\CefSharp.pdb"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\CefSharp.WinForms.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\CefSharp.WinForms.pdb"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\CefSharp.WinForms.xml"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\CefSharp.xml"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\chrome_100_percent.pak"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\chrome_200_percent.pak"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\chrome_elf.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\d3dcompiler_47.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\debug.log"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\Form1.en.resx"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\Form1.es.resx"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\Form1.resx"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\FormAbout.en.resx"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\FormAbout.resx"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\FormAddPin.en.resx"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\FormAddPin.es.resx"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\FormAddPin.resx"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\FormDownloads.en.resx"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\FormDownloads.es.resx"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\FormDownloads.resx"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\FormHistory.resx"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\FormPrivacyInfo.en.resx"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\FormPrivacyInfo.resx"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\FormProfiles.en.resx"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\FormProfiles.resx"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\FormSettings.en.resx"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\FormSettings.es.resx"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\FormSettings.resx"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\FormShare.en.resx"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\FormShare.es.resx"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\FormShare.resx"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\Google.Protobuf.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\Google.Protobuf.pdb"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\Google.Protobuf.xml"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\icon.ico"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\icudtl.dat"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\libcef.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\libEGL.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\libGLESv2.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\LICENSE.txt"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\LumenWorks.Framework.IO.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\LumenWorks.Framework.IO.pdb"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\LumenWorks.Framework.IO.xml"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\Microsoft.Bcl.AsyncInterfaces.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\Microsoft.Bcl.AsyncInterfaces.xml"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\Microsoft.Extensions.DependencyInjection.Abstractions.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\Microsoft.Extensions.DependencyInjection.Abstractions.xml"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\Microsoft.Extensions.DependencyInjection.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\Microsoft.Extensions.DependencyInjection.xml"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\Newtonsoft.Json.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\Newtonsoft.Json.xml"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\NTextCat.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\NTextCat.xml"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\packages.config"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\README.txt"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\resources.pak"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\Sharpcaster.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\snapshot_blob.bin"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\Surfly.application"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\Surfly.exe.config"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\Surfly.exe.manifest"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\Surfly.pdb"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\Surfly_ml.xml"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\System.Buffers.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\System.Buffers.xml"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\System.Memory.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\System.Memory.xml"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\System.Numerics.Vectors.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\System.Numerics.Vectors.xml"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\System.Reflection.TypeExtensions.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\System.Reflection.TypeExtensions.xml"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\System.Runtime.CompilerServices.Unsafe.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\System.Runtime.CompilerServices.Unsafe.xml"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\System.Threading.Tasks.Extensions.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\System.Threading.Tasks.Extensions.xml"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\Tmds.MDns.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\v8_context_snapshot.bin"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\vk_swiftshader.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\vk_swiftshader_icd.json"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\vulkan-1.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lucas\Documents\Instalador\en\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "C:\Users\Lucas\Documents\Instalador\es\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "C:\Users\Lucas\Documents\Instalador\locales\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "C:\Users\Lucas\Documents\Instalador\Properties\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "C:\Users\Lucas\Documents\Instalador\Resources\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "C:\Users\Lucas\Documents\Instalador\swiftshader\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\Files{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\FilesCefSharp.BrowserSubprocess.Core.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\FilesCefSharp.BrowserSubprocess.Core.pdb"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\FilesCefSharp.BrowserSubprocess.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\FilesCefSharp.BrowserSubprocess.pdb"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\FilesCefSharp.Core.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\FilesCefSharp.Core.pdb"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\FilesCefSharp.Core.Runtime.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\FilesCefSharp.Core.Runtime.pdb"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\FilesCefSharp.Core.Runtime.xml"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\FilesCefSharp.Core.xml"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\FilesCefSharp.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\FilesCefSharp.pdb"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\FilesCefSharp.WinForms.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\FilesCefSharp.WinForms.pdb"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\FilesCefSharp.WinForms.xml"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\FilesCefSharp.xml"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\Fileschrome_100_percent.pak"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\Fileschrome_200_percent.pak"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\Fileschrome_elf.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\Filesd3dcompiler_47.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\Filesdebug.log"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\FilesForm1.en.resx"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\FilesForm1.es.resx"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\FilesForm1.resx"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\FilesFormAbout.en.resx"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\FilesFormAbout.resx"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\FilesFormAddPin.en.resx"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\FilesFormAddPin.es.resx"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\FilesFormAddPin.resx"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\FilesFormDownloads.en.resx"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\FilesFormDownloads.es.resx"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\FilesFormDownloads.resx"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\FilesFormHistory.resx"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\FilesFormPrivacyInfo.en.resx"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\FilesFormPrivacyInfo.resx"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\FilesFormProfiles.en.resx"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\FilesFormProfiles.resx"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\FilesFormSettings.en.resx"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\FilesFormSettings.es.resx"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\FilesFormSettings.resx"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\FilesFormShare.en.resx"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\FilesFormShare.es.resx"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\FilesFormShare.resx"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\FilesGoogle.Protobuf.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\FilesGoogle.Protobuf.pdb"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\FilesGoogle.Protobuf.xml"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\Filesicon.ico"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\Filesicudtl.dat"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\Fileslibcef.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\FileslibEGL.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\FileslibGLESv2.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\FilesLICENSE.txt"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\FilesLumenWorks.Framework.IO.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\FilesLumenWorks.Framework.IO.pdb"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\FilesLumenWorks.Framework.IO.xml"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\FilesMicrosoft.Bcl.AsyncInterfaces.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\FilesMicrosoft.Bcl.AsyncInterfaces.xml"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\FilesMicrosoft.Extensions.DependencyInjection.Abstractions.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\FilesMicrosoft.Extensions.DependencyInjection.Abstractions.xml"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\FilesMicrosoft.Extensions.DependencyInjection.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\FilesMicrosoft.Extensions.DependencyInjection.xml"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\FilesNewtonsoft.Json.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\FilesNewtonsoft.Json.xml"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\FilesNTextCat.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\FilesNTextCat.xml"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\Filespackages.config"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\FilesREADME.txt"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\Filesresources.pak"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\FilesSharpcaster.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\Filessnapshot_blob.bin"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\FilesSurfly.application"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\FilesSurfly.exe.config"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\FilesSurfly.exe.manifest"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\FilesSurfly.pdb"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\FilesSurfly_ml.xml"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\FilesSystem.Buffers.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\FilesSystem.Buffers.xml"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\FilesSystem.Memory.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\FilesSystem.Memory.xml"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\FilesSystem.Numerics.Vectors.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\FilesSystem.Numerics.Vectors.xml"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\FilesSystem.Reflection.TypeExtensions.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\FilesSystem.Reflection.TypeExtensions.xml"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\FilesSystem.Runtime.CompilerServices.Unsafe.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\FilesSystem.Runtime.CompilerServices.Unsafe.xml"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\FilesSystem.Threading.Tasks.Extensions.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\FilesSystem.Threading.Tasks.Extensions.xml"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\FilesTmds.MDns.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\Filesv8_context_snapshot.bin"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\Filesvk_swiftshader.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\Filesvk_swiftshader_icd.json"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\Filesvulkan-1.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\Filesen\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\Fileses\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\Fileslocales\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\FilesProperties\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\FilesResources\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "C:\Users\Lucas\source\repos\Browser-Setup\Filesswiftshader\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
